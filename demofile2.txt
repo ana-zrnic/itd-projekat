@@ -1,0 +1,22 @@
+Length18
+[
+{"id": 1, "naslov": "13.04.2021.", "opis": "self-study: uvod u angular, postavljanje okruzenja, razumijevanje osnovnih koncepta, interpolacija, binding, templates, dekoratori", "vrijeme": "2h"},
+{"id": 9, "naslov": "19.04.2021.", "opis": "self-study: kreiranje komponenti, injections, dependencies, core directives", "vrijeme": "3h"},
+{"id": 10, "naslov": "22.04.2021.", "opis": "self-study: sta je rutiranje, kako koncepti kao sto su klase i objekti funckionisu na nivou angulara, poredjenje istih sa javom", "vrijeme": "2h"},
+{"id": 11, "naslov": "23.04.2021.", "opis": "vise istrazivanja iz razlicitih izvora, kako se angular poredi sa svojom konkurencijom: react-om, potraznja, prednosti i mane, kreiranje okvira seminarskog rada(osnovni naslovi i podnaslovi), definisanje LaTex listing-a za predstavljanje html/css/js source koda(neuspjesno)", "vrijeme": "4h"},
+{"id": 12, "naslov": "24.04.2021.", "opis": "angular-course sa zvanicnog angular-university sajta da se utvrde prethodna samostalna istrazivanja || Implementacija okvirnih naslova i podnaslova rada, rad na odjeljcima uvod i okruzenje", "vrijeme": "8h"},
+{"id": 13, "naslov": "25.04.2021.", "opis": "nastavak na seminarskom radu, zavrsavanje odjeljaka 3(ostalo zavrsiti dependency injection) i 4, ispravljanje prethodnog, definisan uspjesno latex listing za html/css/js, bulk teksta postavljen", "vrijeme": "9h"},
+{"id": 14, "naslov": "26.04.2021.", "opis": "finalni pregled i dotjerivanje rada. Zavrsen dependency injection", "vrijeme": "2h"},
+{"id": 15, "naslov": "02.05.2021.", "opis": "rad na prvom draftu, definisanje funkcionalnosti sajta, platforme, pronalazenje palete boja", "vrijeme": "5.5h"},
+{"id": 16, "naslov": "03.05.2021.", "opis": "instaliranje djanga, crtanje grafickih elemenata, kreiranje odjeljka HOME i komponenta za svaki log || kreiranje preostala dva odjeljka ABOUT i NEW ENTRY (nije posljednja verzija, promjene su moguce)", "vrijeme": "9.5h"},
+{"id": 17, "naslov": "04.05.2021.", "opis": "pisanje prvog drafta, skupljanje materijala za rad", "vrijeme": "4h"},
+{"id": 18, "naslov": "17.05.2021.", "opis": "pokusavanje uvezivanja djanga i angulara(propalo) drugi pokusaj uvezivanja flaska i angulara (on hold)", "vrijeme": "7h"},
+{"id": 19, "naslov": "18.05.2021.", "opis": "uvezivanje flaska i angulara uspjesno (todo: poraditi na htmlu i cssu, napraviti rutiranja)", "vrijeme": "2.5h"},
+{"id": 20, "naslov": "20.05.2021.", "opis": "dorada izgleda web sajta, stilske ispravke, rutiranje komponenti, popravljena js animacija iz about section", "vrijeme": "6h"},
+{"id": 21, "naslov": "22.05.2021.", "opis": "rad na CRUD operacijama, uspjesno obavljeno upisivanje i fetch iz baze sajt mi je napokon koristan", "vrijeme": "8.5h"},
+{"id": 22, "naslov": "28.05.2021.", "opis": "get metod, ngfor loop za prikaz onoliko komponentri koliko ima unosa u bazu, modifikacija komponente tako da prikazuje ono sto je u bazi", "vrijeme": "2h"},
+{"id": 23, "naslov": "01.06.2021.", "opis": "delete i update dugme (html+css), povezane sa odgovarajucim funkcijama, funkcija koja prepozna selektovanu komponentu i pamti joj id.", "vrijeme": "1.5h"},
+{"id": 24, "naslov": "02.06.2021.", "opis": "sitne popravke u izgledu", "vrijeme": "1.5h"},
+{"id": 25, "naslov": "03.06.2021.", "opis": "responsivnost, edit entry get-a vrijednost selektovanog id-a iz baze i upisuje ih automatski u values inputa", "vrijeme": "5h"},
+]
+After log
