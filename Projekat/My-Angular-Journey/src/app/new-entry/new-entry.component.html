@@ -1,0 +1,15 @@
+<div class="krug"></div>
+<div class="avion2"><img src="assets/plane3.png" alt=""></div>
+
+<form [formGroup]="checkoutForm" name="contactForm" method="POST" action="/process" (ngSubmit)="onSubmit()">
+    <div class="container">
+        <h1>Naslov.</h1>
+        <input formControlName="naslov" name="naslov" class="prvi" type="text" placeholder="Datum unosa..." required autofocus>
+        <h1>Opis.</h1>
+        <textarea formControlName="opis" name="opis" class="drugi" cols="10" rows="10" placeholder="Odrađene stavke..."></textarea>
+        <h1>Vrijeme.</h1>
+        <input formControlName="vrijeme" name="vrijeme" class="prvi" type="text" placeholder="Provedeno vrijeme...">
+        <br>
+        <input class="button" type="submit" value="Pošalji">
+    </div>
+</form>

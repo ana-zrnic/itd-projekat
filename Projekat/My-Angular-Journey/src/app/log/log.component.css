@@ -1,0 +1,49 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+.wrapper{
+    background-color: #f1f1e5;
+    margin: 2% 20%;
+    height: 300px;
+    position: relative;
+    border-radius: 6px;
+    color: #333;
+    cursor: pointer;
+}
+.wrapperClicked{
+    background-color: #acac99;
+    margin: 2% 20%;
+    height: 300px;
+    position: relative;
+    border-radius: 6px;
+    color: #333;
+    cursor: pointer;
+}
+/* .isSelected{
+    background-color: rgb(3, 2, 2);
+} */
+
+.text{
+    position: absolute;
+    height: 280px;
+    width: 601.533px;
+    right: 10px;
+    top: 10px;
+    padding: 20px;
+}
+.text h1{
+    margin-bottom: 15px;
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+    line-height: 0.85;
+}
+p{
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+img{
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    top: 10px;
+    left: 10px;
+}

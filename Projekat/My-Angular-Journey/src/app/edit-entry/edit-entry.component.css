@@ -1,0 +1,83 @@
+.container{
+    position: relative;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;    
+    padding: 50px;
+    
+}
+h1{
+    margin-top: 20px;
+    color: #333;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.prvi {
+    
+    height: 50px;
+    width: 25%;
+}
+.drugi{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 20px;
+    width: 90%;
+    height: 100px;
+}
+.button{
+    margin: 20px 0;
+    background-color: #197B30;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    border-radius: 20%;
+    font-size: 20px;
+    color: white;
+    border-radius: 500px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #0d421a;
+    transition: .5s ease;
+    
+}
+.krug{
+    background-color: #8FA376;
+    width: 1200px;
+    height: 1200px;
+    position: fixed;
+    border-radius: 100%;
+    right: -500px;
+    bottom: -520px;
+}
+
+.avion2{
+    position: fixed;
+    bottom: -10%;
+    right: -5%;
+}
+@media screen and (max-width: 600px) {
+    .avion2{
+      display: none;
+    }
+    .krug{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        background-color: #8FA376;
+    }
+    .prvi{
+        width: 100%;
+    }
+    .drugi{
+        width: 100%;
+    }
+  }

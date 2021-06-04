@@ -1,0 +1,28 @@
+<button (click)="onDeleteClick()" class="delete">Delete</button>
+<button (click)="onEditClick()"  class="update">Update</button>
+<div class="col-md-12">
+    <!-- <app-log *ngFor = "let log of logs"
+    [currentLog] = "log"
+    [class.disabled] = "log.id == this.selectedId"
+    (click) = "onSelected(log.id)"
+    ></app-log> -->
+    <div *ngFor="let log of logs" (click)="onSelected(log.id)"  class="wrapper" [style.background-color] = "log.id == this.selectedId ? '#acac99' : '#f1f1e5'">
+        <img src="assets/test2.jpg">
+    
+    <!--<app-log-image></app-log-image>--> 
+    <!-- <app-log-text [logtxt] = "currentLog.naslov"></app-log-text>--> 
+        <div class="text">
+            <h1>{{log.naslov}}</h1>
+            <p>{{log.opis}}</p>
+            <h4>Ukupno sati: {{log.vrijeme}}</h4>
+        </div>
+    </div>    
+</div>
+<!-- <div class="d-none">Should not be shown</div>
+<div [class.d-none] = "this.selectedId == 1">I will disappear if id selected is 1 and id selected is {{this.selectedId}}</div> -->
+
+
+
+
+
+

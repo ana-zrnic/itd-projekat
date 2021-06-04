@@ -1,0 +1,12 @@
+<div (selected)="isSelected" [ngClass]="style" (click)="onOptionsSelected()" >
+    <!-- <div class="image"></div> -->
+    <img src="assets/test.jpg">
+    
+    <!--<app-log-image></app-log-image>--> 
+    <!-- <app-log-text [logtxt] = "currentLog.naslov"></app-log-text>--> 
+    <div class="text">
+        <h1>{{currentLog.naslov}}</h1>
+        <p>{{currentLog.opis}}</p>
+        <h4>Ukupno sati: {{currentLog.vrijeme}}</h4>
+    </div>
+</div>

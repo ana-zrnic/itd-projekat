@@ -1,0 +1,96 @@
+/* @import "~bootstrap/dist/css/bootstrap.css";
+ */
+.delete{ 
+    top: 100px;    
+    background-color: rgb(163, 86, 41);
+}
+.update{
+    top: 150px;
+    background-color: #197B30;    
+}
+.isSelected{
+    background-color: rgb(3, 2, 2);
+}
+button{
+    position: fixed;
+    right: 20px;
+    box-shadow: 0 5px #999;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    border-radius: 20%;
+    font-size: 20px;
+    color: white;
+    border-radius: 500px;
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: rgb(138, 72, 33);
+}
+.update:hover{
+    background-color: #0d421a;
+}
+button:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+
+.text{
+    position: absolute;
+    height: 280px;
+    width: 601.533px;
+    right: 10px;
+    top: 10px;
+    padding: 20px;
+}
+.text h1{
+    margin-bottom: 15px;
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+    line-height: 0.85;
+}
+p{
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+img{
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    top: 10px;
+    left: 10px;
+}
+.wrapper{
+    background-color: #f1f1e5;
+    margin: 2% 20%;
+    height: 300px;
+    position: relative;
+    border-radius: 6px;
+    color: #333;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .wrapper {
+      margin: 4% 10%;
+      display: block;
+    }
+    img{
+        display: none;
+    }
+    .text{
+        position: static;
+        width: auto;
+    }
+    .delete{        
+        position: static;
+        display: inline-block;
+        margin: 4%;     
+    }
+    .update{
+        position: static;
+        display: inline-block;
+        margin: 4%;
+    }
+  }

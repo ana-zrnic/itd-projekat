@@ -1,0 +1,18 @@
+#test{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+#test2{
+    position: absolute;
+    top: 30px;
+    left: 100px;    
+}
+#test2 img{
+    width: 50%;
+    transition: width 1s, transform 1s;
+}
+#test2 img:hover{
+    width: 70%;
+    transform: rotate(-20deg);
+}

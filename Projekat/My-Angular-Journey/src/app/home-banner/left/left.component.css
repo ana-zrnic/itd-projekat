@@ -1,0 +1,67 @@
+.title{
+    margin: 20% 15% 5% 15%;
+}
+.title h1{
+    width: 100%;
+    font-size: 70px;
+    color: #333;
+}
+.title img{
+    width: 15%;    
+}
+.dugme{
+    margin-right: auto;
+    margin-left: 15%;    
+    width: 25%;
+    
+}
+.dugme button{
+    background-color: #197B30;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    border-radius: 20%;
+    border-radius: 500px;
+    cursor: pointer;
+}
+.dugme button:hover{
+    background-color: #0d421a;
+    transition: .5s ease;
+}
+.introduction{
+    margin-left: 15%;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 5%;
+}
+.introduction p{
+    text-align: justify;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    .title{
+        width: 50%;
+        margin: 5% auto;
+        
+    }
+    .title h1{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .introduction{
+        width: 80%;
+        margin: 5% auto;
+    }
+    .dugme{
+        margin-right: auto;
+        margin-left: auto;    
+        width: 41%;
+        
+    }
+  }

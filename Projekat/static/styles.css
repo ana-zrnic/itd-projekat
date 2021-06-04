@@ -1,0 +1,9 @@
+* {
+    margin: 0; /*resetujemo sve elemente na nulu jer neki imaju default padding i margine*/
+    padding: 0;
+    box-sizing: border-box;/* kaze nam da padding i margine se ravnaju unutar nekog bordera a ne van*/
+    font-family: Inter,sans-serif;
+}
+
+
+/*# sourceMappingURL=styles.css.map*/
